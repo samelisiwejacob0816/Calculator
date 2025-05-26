@@ -65,8 +65,8 @@ public static void main (String []args){
  Calculator calculator = new Calculator();
  Scanner scanner = new Scanner(System.in);
  
-
- System.out.println("Enter numbers");
+//asks how many number will be used for calculationg
+ System.out.println("Enter how many numbers will be used to calculate");
  int count = scanner.nextInt();
 
  double[] inputNumbers = new double [count];
